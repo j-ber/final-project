@@ -7,7 +7,7 @@ This module provides functions for translating text between English and French.
 from deep_translator import MyMemoryTranslator
 
 
-def translate_english_to_french(text):
+def english_to_french(text):
     """
     Translates English text to French.
     Args:
@@ -20,7 +20,7 @@ def translate_english_to_french(text):
     return translation
 
 
-def translate_french_to_english(text):
+def french_to_english(text):
     """
     Translates French text to English.
     Args:
